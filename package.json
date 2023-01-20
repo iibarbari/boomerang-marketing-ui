@@ -16,7 +16,7 @@
     "build-storybook": "build-storybook"
   },
   "keywords": [],
-  "author": "",
+  "author": "iibarbari",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.20.12",
@@ -55,7 +55,7 @@
     "react": "*"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/iibarbari"
+    "iibarbari:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
