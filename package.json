@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "exit 0",
     "build": "rollup -c",
     "dev": "nodemon --exec \"npm run build\" -e js,ts,jsx,tsx,css --ignore dist/",
     "storybook": "start-storybook -p 6006",
