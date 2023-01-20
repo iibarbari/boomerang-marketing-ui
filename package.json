@@ -1,5 +1,5 @@
 {
-  "name": "@iibarbari/boomerang-marketing-ui",
+  "name": "boomerang-marketing-ui",
   "version": "1.0.1",
   "description": "boomerang marketing ui library",
   "main": "dist/cjs/index.js",
