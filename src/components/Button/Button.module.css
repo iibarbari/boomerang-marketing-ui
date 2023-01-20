@@ -1,0 +1,36 @@
+.button {
+    --primary-bg: teal;
+    --primary-color: white;
+    --secondary-bg: pink;
+    --secondary-color: black;
+
+    all: unset;
+    padding: 1rem 2rem;
+    transition: opacity 200ms ease-in-out;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 1rem 0.5rem;
+    opacity: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+&:hover,
+&:focus-visible {
+     opacity: 0.5;
+ }
+
+&:active {
+     opacity: 0.3;
+ }
+
+&.primary {
+     background-color: var(--primary-bg);
+     color: var(--primary-color)
+ }
+
+&.secondary{
+     background-color: var(--secondary-bg);
+     color: var(--secondary-color)
+ }
+}
